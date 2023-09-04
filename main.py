@@ -575,7 +575,7 @@ def open_new_order(user, c):
     else :
         flags = [1,1]
 
-    b_register = Button(buy, text="Płatność przy odbiorze",font=('bold',10),bg="white",command= lambda: add_order(flags, c))
+    b_register = Button(buy, text="Przejdź do systemu płatności",font=('bold',10),bg="white",command= lambda: add_order(flags, c))
     b_register.place(x=140,y=300)
 
 # newest reviews window
