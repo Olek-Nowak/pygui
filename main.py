@@ -100,9 +100,6 @@ def change_moderator(user):
     b_review = Button(root, text="Najnowsze recenzje",font=('bold',10),bg="white",command=reviews)
     b_review.place(x=60,y=240)
 
-    b_change = Button(root, text="Zmień hasło",font=('bold',10),bg="white",command=change)
-    b_change.place(x=60,y=270)
-
 
 # user window
 def change_user(user):
@@ -156,9 +153,7 @@ def change_user(user):
 
     b_orders = Button(root, text="Historia zamówień",font=('bold',10),bg="white",command=orders)
     b_orders.place(x=60,y=270)
-
-    b_change = Button(root, text="Zmień hasło",font=('bold',10),bg="white",command=change)
-    b_change.place(x=60,y=300)
+    
 
 # search product window
 def open_search(c):
